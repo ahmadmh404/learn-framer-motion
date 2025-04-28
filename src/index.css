@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1017;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+  background: yellow;
+}
+
+.box.circle {
+  border-radius: 100%;
+}
+
+.box.bit {
+  border-radius: 5px;
+}
+
+.box.stagger {
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
