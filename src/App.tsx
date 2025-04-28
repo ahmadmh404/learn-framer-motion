@@ -1,4 +1,4 @@
-import { Main } from "./stagger-animation-practies/Main";
+import { Main } from "./use-motion-practice/Main";
 
 const App = () => {
   return (
@@ -43,6 +43,9 @@ const App = () => {
       {/* <Main /> */}
 
       {/* Stagger Practic */}
+      {/* <Main /> */}
+
+      {/* useMotion Practic */}
       <Main />
     </div>
   );
