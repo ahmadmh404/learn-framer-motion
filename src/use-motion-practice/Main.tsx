@@ -1,3 +1,9 @@
+import { DraggableBox } from "./components/draggable-box";
+
 export const Main = () => {
-  return <div>Main</div>;
+  return (
+    <div>
+      <DraggableBox />
+    </div>
+  );
 };
